@@ -1,5 +1,65 @@
-main{
+main {
     height: auto;
     width: 80%;
-    background-color: aquamarine;
+    background-color: rgb(56, 56, 56);
+    margin: 0 auto; /* Centra el container en la pagina */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #dedede;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 8px;
+    background-color: #fff6c6;
+    margin-bottom: 10px;
+    border: 1px solid #6c6c6c;
+    border-radius: 3px;
+}
+
+form button {
+    padding: 10px 15px;
+    background-color: #e9c92b;
+    color: rgb(31, 31, 31);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #f3e28e;
+}
+
+.alumnoContainer {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.nombre {
+    font-size: 24px;
+    color: #101010;
+}
+
+.apellido {
+    font-size: 20px;
+    color: rgb(222, 211, 54)010;
+}
+
+.contenedorchiquito {
+    margin-top: 10px;
 }
