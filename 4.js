@@ -35,7 +35,7 @@ function mostrarAlumnos() {
         apellido.textContent = alumno[index].apellido;
         alumnoContainer.appendChild(apellido);
 
-        // Checkbox
+        // Checkbox (Dato 3)
         var section = document.createElement("section");
         section.classList.add("contenedorchiquito");
 

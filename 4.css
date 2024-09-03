@@ -39,11 +39,17 @@ form button {
     cursor: pointer;
 }
 
+h1, h2{
+    display: inline;
+    margin: 1%;
+}
+
 form button:hover {
     background-color: #f3e28e;
 }
 
 .alumnoContainer {
+    
     margin-bottom: 20px;
     padding: 10px;
     background-color: rgb(255, 255, 255);
