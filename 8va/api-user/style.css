@@ -1,0 +1,70 @@
+body {
+    font-family:Tahoma, sans-serif;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Fondo celeste pastel */
+}
+
+header {
+    background-color: #add8e6; /* Celeste pastel */
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 20px;
+    border-bottom: 2px solid #535eff; /* Borde inferior más oscuro */
+}
+
+h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+#thumnail img {
+    border-radius: 50%; /* Imagen redonda */
+    width: 75px; /* Ajusta el tamaño según necesites */
+    height: 75px;
+}
+
+.datos {
+    padding: 20px;
+    background-color: #ffffff; /* Fondo blanco para el contenido */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+body{
+    background-color: #cee6fc;
+    min-height: 100vdh;
+}
+main{
+    padding-left: 4%;
+}
+#datos{
+    padding-left: 5%;
+    color: rgb(0, 26, 112);
+}
+
+#usuario{
+    color: rgb(42, 54, 219);
+}
+
+#contenedor{
+    background-color: #88c0e9;
+    margin-top: 5%;
+    max-width: fit-content;
+    padding: 1%;
+    border-radius: 10%;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+#clima{
+    background-color: #cee6fc;
+    padding: 20px;
+    border-radius: 3%;
+}
